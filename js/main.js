@@ -1,6 +1,6 @@
 const instance = new TypeIt('#my-friend-name', {
     strings: ['Lê Phương', 'Học Viện Ngân Hàng'],
-    speed: 300,
+    speed: 100,
     autoStart: false,
 
 }).go();
@@ -12,7 +12,7 @@ $(document).ready(function() {
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2500,
         arrows: false,
         dots: false,
         pauseOnHover: false,

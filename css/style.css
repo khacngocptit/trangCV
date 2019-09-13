@@ -39,10 +39,17 @@ a {
 }
 
 .slide-my-friend img {
-    width: 100%;
-    padding: 2rem 0rem 10rem 7rem;
+    width: 70%;
     border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 3rem;
 }
+
+
+/* .slide-my-friend img:hover {
+    transform: translate(180deg);
+    transition: all 1s;
+} */
 
 
 /* Timeline */
@@ -461,4 +468,50 @@ h2 {
     h1 {
         font-size: 30px;
     }
+}
+
+.gt-banthan {
+    background: url('../image/cat-2536662_1920.jpg') no-repeat fixed;
+}
+
+.slide img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: url('../image/hol159.gif');
+}
+
+.slick-slide img:hover {
+    animation: phep-quay 5s;
+}
+
+@keyframes phep-quay {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.my-friend-img {
+    background: linear-gradient(259deg, #eaeaea, #e446c9, #ec1616);
+    background-size: 600% 600%;
+    animation: AnimationName 23s ease infinite;
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 83%
+    }
+    50% {
+        background-position: 100% 18%
+    }
+    100% {
+        background-position: 0% 83%
+    }
+}
+
+
 }
