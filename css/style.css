@@ -455,21 +455,6 @@ h2 {
 
 /* Respon */
 
-@media only screen and (max-width:768px) {
-    .slide-my-friend {
-        padding: 2rem 0;
-    }
-    .slide-my-friend img {
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width:375px) {
-    h1 {
-        font-size: 30px;
-    }
-}
-
 .gt-banthan {
     background: url('../image/cat-2536662_1920.jpg') no-repeat fixed;
 }
@@ -498,7 +483,7 @@ h2 {
 .my-friend-img {
     background: linear-gradient(259deg, #eaeaea, #e446c9, #ec1616);
     background-size: 600% 600%;
-    animation: AnimationName 23s ease infinite;
+    animation: AnimationName 15s ease infinite;
 }
 
 @keyframes AnimationName {
@@ -513,5 +498,21 @@ h2 {
     }
 }
 
+@media only screen and (max-width:768px) {
+    .slide-my-friend {
+        padding: 2rem 0;
+    }
+    .slide-my-friend img {
+        padding: 0;
+    }
+    .slide img {
+        width: 100px;
+        height: 100px;
+    }
+}
 
+@media only screen and (max-width:375px) {
+    h1 {
+        font-size: 30px;
+    }
 }
